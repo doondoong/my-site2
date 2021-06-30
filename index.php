@@ -139,7 +139,7 @@
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a style="margin-bottom: 20px;" class="btn btn-xl btn-outline-light" href="https://apis.map.kakao.com/web/">
+                    <a style="margin-bottom: 40px;" class="btn btn-xl btn-outline-light" href="https://apis.map.kakao.com/web/">
                         <i lass="fas fa-download me-2"></i>
                         Free MAP API START!
                     </a>
@@ -290,6 +290,11 @@
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://todaykimjs.github.io/#/'" data-bs-dismiss="modal">
+                                        <a href="https://todaykimjs.github.io/#/"></a>
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Go ShoeShop
                                     </button>
                                 </div>
                             </div>
