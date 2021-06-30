@@ -143,12 +143,12 @@
                         <i class="fas fa-download me-2"></i>
                         Free Download!
                     </a>
-                    <div id="map" style="width:500px;height:400px;"></div>
+                    <div id="map" style="margin:auto;width:500px;height:400px;"></div>
                     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5559ee2cb69f113b5b1a42efc1079a70"></script>
                     <script>
                         var container = document.getElementById('map');
                         var options = {
-                            center: new kakao.maps.LatLng(33.450701, 126.570667),
+                            center: new kakao.maps.LatLng(37.6514827333018, 127.11456994850076),
                             level: 3
                         };
 
@@ -286,7 +286,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/shop.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">리액트를 사용하여 구성하였으며, 간단한 상세페이지와 장바구니까지 구현하였습니다.</p>
+                                    <p class="mb-4">리액트를 사용하여 개발하였으며, 간단한 상세페이지와 장바구니까지 구현하였습니다.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
