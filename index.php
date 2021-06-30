@@ -134,14 +134,14 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="text-center lead">카카오 맵 API 연동하기</p></div>
+                    <div class="col-lg-4 me-auto"><p class="text-center lead">1일 300,000회 사용 가능</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
+                    <a style="margin-bottom: 20px;" class="btn btn-xl btn-outline-light" href="https://apis.map.kakao.com/web/">
+                        <i lass="fas fa-download me-2"></i>
+                        Free MAP API START!
                     </a>
                     <div id="map" style="margin:auto;width:500px;height:400px;"></div>
                     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5559ee2cb69f113b5b1a42efc1079a70"></script>
