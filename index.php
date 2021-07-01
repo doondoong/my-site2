@@ -79,7 +79,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/covidmain.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -143,8 +143,8 @@
                         <i lass="fas fa-download me-2"></i>
                         Free MAP API START!
                     </a>
-                    <div id="map" style="margin:auto;width:500px;height:400px;"></div>
-                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5559ee2cb69f113b5b1a42efc1079a70"></script>
+                    <!-- <div id="map" style="margin:auto;width:500px;height:400px;"></div> -->
+                    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5559ee2cb69f113b5b1a42efc1079a70"></script>
                     <script>
                         var container = document.getElementById('map');
                         var options = {
@@ -153,7 +153,7 @@
                         };
 
                         var map = new kakao.maps.Map(container, options);
-                    </script>
+                    </script> -->
                 </div>
             </div>
         </section>
@@ -313,7 +313,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">예방접종센터 MAP</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -321,12 +321,17 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/covidmain.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">공공API와 카카오맵API를 연동하여 전국 코로나 백신 예방접종 센터 위치와 연락처를 연동하였습니다.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://covid-vaccine-map1.herokuapp.com/'" data-bs-dismiss="modal">
+                                        <a href="https://covid-vaccine-map1.herokuapp.com/"></a>
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Go vaccine_map
                                     </button>
                                 </div>
                             </div>
