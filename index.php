@@ -143,8 +143,8 @@
                         <i lass="fas fa-download me-2"></i>
                         Free MAP API START!
                     </a>
-                    <!-- <div id="map" style="margin:auto;width:500px;height:400px;"></div> -->
-                    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5559ee2cb69f113b5b1a42efc1079a70"></script>
+                    <div id="map" style="margin:auto;width:500px;height:400px;"></div>
+                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5559ee2cb69f113b5b1a42efc1079a70"></script>
                     <script>
                         var container = document.getElementById('map');
                         var options = {
@@ -153,7 +153,7 @@
                         };
 
                         var map = new kakao.maps.Map(container, options);
-                    </script> -->
+                    </script>
                 </div>
             </div>
         </section>
