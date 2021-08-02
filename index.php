@@ -569,7 +569,7 @@
                                     </button>
                                     <button
                                         class="btn btn-primary"
-                                        onclick="window.open('https://doondoong.github.io/my-youtube/')"
+                                        onclick="window.open('https://doondoong.github.io/new-youtube//')"
                                         data-bs-dismiss="modal"
                                     >
                                         <a href="#" target="_blank"></a>
